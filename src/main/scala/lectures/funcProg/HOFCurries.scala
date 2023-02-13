@@ -53,8 +53,8 @@ object HOFCurries extends App {
     // scala actually allows you to have multiple parameter lists at declaration
     def logFormatter(separator: String)(logs: Array[String]): String = List.from(logs).mkString(separator)
 
-    val commaLogs = logFormatter(",")
-    val barLogs = logFormatter("|")
+    val commaLogs: Array[String] => String = logFormatter(",")
+    val barLogs: Array[String] => String = logFormatter("|")
     val theLogs: Array[String] = Array.from(Seq("Error1", "Error2"))
 
 
