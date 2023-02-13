@@ -4,6 +4,5 @@ out/
 *.iml
 .bsp
 .idea
-build.sbt
 target
 project
