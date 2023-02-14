@@ -6,3 +6,6 @@ out/
 .idea
 target
 project
+.metals
+.bloop
+.vscode
