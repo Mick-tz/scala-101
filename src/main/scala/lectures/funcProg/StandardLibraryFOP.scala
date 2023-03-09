@@ -1,5 +1,7 @@
 package lectures.funcProg
 
+import javafx.print.Printer
+
 import scala.collection.immutable.ArraySeq
 import scala.util.Random
 
